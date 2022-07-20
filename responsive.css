@@ -1,0 +1,19 @@
+@media(max-width:688px) {
+    .banner-part {
+        flex-direction: column;
+    }
+
+    .banner-part .banner-part-left-text .banner-part-left-inner-text {
+        text-align: center;
+    }
+
+    .banner-part .banner-part-left-text .banner-part-left-inner-text h1 {
+        font-size: 30px;
+        line-height: 43px;
+
+    }
+    .banner-btn{
+        align-items: center;
+
+    }
+    

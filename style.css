@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* common part */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: 0 5%;
+
+}
+
+body {
+    padding: 10px 5px;
+}
+
+/* common part end  */
+/* banner part start */
+
+#banner-part {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.container-border {
+    border-radius: 30px;
+    background-color: blueviolet;
+    color: white;
+}
+
+
+
+.banner-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-part .banner-part-left-text {
+    flex-basis: 50%;
+    
+}
+
+.top-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70px;
+    margin-top: 25px;
+}
+
+ .banner-part-left-inner-text {
+    padding: 0px 15px;
+    width: 80%;
+    margin: 0 auto;
+
+
+}
+
+ .banner-pera {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 10px 0px;
+    line-height: 24px;
+}
+/* .banner-part .banner-part-left-text .banner-part-left-inner-text */
+ .banner-btn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: aliceblue;
+    background-color: #E02C6D;
+    width: 149px;
+    padding: 12px 12px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+
+ .banner-icon {
+    margin: 0px 2px 0px 5px;
+}
+
+.banner-part  {
+    flex-basis: 50%;
+    /* padding */
+    padding: 20px 40px 0px 40px;
+   
+}
+.banner-part-right-img{
+    flex-basis: 50%;
+}
+
+ .banner-part-right-img img {
+    width: 100%;
+    
+
+}
+/* animation */
+.banner-btn:hover{
+    /* color: whitesmoke;
+    background-color:blueviolet; */
+   background-color: #880808;
+}
+/* .container-border:hover{
+    background-color:darkgray;
+    color: black;
+ 
+} */
+
+.banner-btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.banner-btn:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.banner-btn:hover span {
+    padding-right: 15px;
+}
+
+.banner-btn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+/* banner end */
