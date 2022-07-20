@@ -87,6 +87,44 @@ body {
     cursor: pointer;
 
 }
+/* animation button */
+.banner-btn:hover {
+    background-color: #880808;
+}
+
+/* .container-border:hover{
+    background-color:darkgray;
+    color: black;
+ 
+} */
+
+
+
+
+.banner-btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.8s;
+}
+
+.banner-btn:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.8s;
+}
+
+.banner-btn:hover span {
+    padding-right: 15px;
+}
+
+.banner-btn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
 
  .banner-icon {
     margin: 0px 2px 0px 5px;
@@ -107,43 +145,7 @@ body {
     
 
 }
-/* animation button */
-.banner-btn:hover{
-   background-color: #880808;
-}
-/* .container-border:hover{
-    background-color:darkgray;
-    color: black;
- 
-} */
 
- 
-
-
- .banner-btn span {
-     cursor: pointer;
-     display: inline-block;
-     position: relative;
-     transition: 0.8s;
- }
-
- .banner-btn:after {
-     content: '\00bb';
-     position: absolute;
-     opacity: 0;
-     top: 0;
-     right: -20px;
-     transition: 0.8s;
- }
-
- .banner-btn:hover span {
-     padding-right: 15px;
- }
-
- .banner-btn:hover span:after {
-     opacity: 1;
-     right: 0;
- }
  /* banner end */
  /* middle section */
 #middle-section-blog {
@@ -352,16 +354,51 @@ font-weight: 700;
  .view-btn {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: 16px;
-    color: white;
+    font-size: 14px;
+    color: aliceblue;
     background-color: #E02C6D;
     width: 149px;
     padding: 12px 12px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 10px 0px;
-    border: none;
+    border: none; 
+    transition: all 0.5s;
+        cursor: pointer;
 
 }
+.view-btn:hover {
+    background-color: #880808;
+}
+
+
+
+
+
+.view-btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.8s;
+}
+
+.view-btn:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.8s;
+}
+
+.view-btn:hover span {
+    padding-right: 15px;
+}
+
+.view-btn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+/* view btn end */
 footer {
     background-color: #022247;
     padding: 20px;
