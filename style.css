@@ -272,8 +272,8 @@ article .card-info {
         margin: 5px 0px 10px 0px;
 }
 .transfer-btn:hover{
-    background-color: blueviolet;
-    color: aliceblue;
+    background-color:#BEBEBE;
+    color: black;
 }
 
  .card-info h3 {
