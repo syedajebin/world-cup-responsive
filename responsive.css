@@ -14,17 +14,15 @@
                 line-height: 43px;
 
         }
-        
+       
 
-    }
-    .banner-btn{
-        align-items: center;
-
-    }
+    
+         .banner-btn {
+             align-items: center;
+    
+         }
     /* banner done */
-   /* middle part  */
-   @media(max-width:688px){
-        .middle-section-blog-left .middle-section-blog-left-menu {
+   .middle-section-blog-left-menu {
     
     
             flex-direction: column;
@@ -36,6 +34,7 @@
     
         .middle-section-blog {
             flex-direction: column;
+           
         }
     
         .middle-section-blog-left {
@@ -44,6 +43,11 @@
             margin-bottom: 20px;
     
         }
+                .middle-section-blog-right {
+                    width: 100%;
+        
+        
+                }
     
         .middle-section-blog-left-menu a {
     
@@ -53,16 +57,15 @@
     
         }
     
-        .middle-section-blog-right- {
-            width: 100%;
-    
-    
-        }
+        
     
         .middle-section-blog-right-card {
             display: grid;
-            grid-template-columns: repeat(1, 1fr);
+            grid-template-columns: 1fr;
             grid-gap: 25px;
+           
     
         }
+    }
+   
    /* FOOTER SECTION */
