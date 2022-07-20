@@ -5,144 +5,152 @@
 
     .banner-part-left-inner-text {
         text-align: center;
-    }
-
-    /* .banner-part .banner-part-left-text .banner-part-left-inner-text h1
-      */
-        .top-text{
-            font-size: 30px;
-                line-height: 43px;
-
-        }
-       
-
-    
-         .banner-btn {
-             align-items: center;
-    
-         }
-    /* banner done */
-   .middle-section-blog-left-menu {
-    
-    
-            flex-direction: column;
-            height: 100%;
-            justify-content: center;
-            align-items: center;
-    
-        }
-    
-        .middle-section-blog {
-            flex-direction: column;
-           
-        }
-    
-        .middle-section-blog-left {
-            width: 100%;
-            background-color: white;
-            margin-bottom: 20px;
-    
-        }
-                .middle-section-blog-right {
-                    width: 100%;
-        
-        
-                }
-    
-        .middle-section-blog-left-menu a {
-    
-            margin: 10px 0px;
-            border: 1px solid rgb(227, 224, 224);
-    
-    
-        }
-    
-        
-    
-        .middle-section-blog-right-card {
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-gap: 25px;
-           
-    
-       
-     }
-     /* upcoming part */
-          .card-img-upcoming-part h3 {
-             margin: 0px 0px;
-             font-size: 30px;
-         }
-    
-        .card-info-upcoming-part h4 {
-             font-size: 28px;
-             font-weight: 700;
-             font-family: "Poppins", sans-serif;
-         }
-    
-      .card-info-p {
-             font-size: 20px;
-             font-weight: 400;
-             font-family: "Poppins", sans-serif;
-             margin-top: 5px;
-       
-            }
-     /* footer */
-
-                
-    }
-
-   @media(max-width:688px){
-    .footer-menu {
-            flex-direction: column;
-        }
-    
-        .social-site{
-            width: 100%;
-        }
-    
-        .footer-menu-first {
-            display: flex;
-            flex-direction: column;
-           
-                justify-content: center;
-                align-items: center;
-        }
-    
-        .footer-menu-second {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-    
-        .footer-menu a {
-            margin: 10px 0px;
-        }
-
-.footer h3{
-    justify-content: center;
-    align-items: center;
-   
-}
-footer{
         justify-content: center;
-            align-items: center;
+    }
+
+   
+    .top-text {
+        font-size: 30px;
+        line-height: 43px;
+        text-align: center;
+
+    }
+
+
+
+    .banner-btn {
+        align-items: center;
+
+    }
+
+    /* banner done */
+    .middle-section-blog-left-menu {
+
+
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .middle-section-blog {
+        flex-direction: column;
+
+    }
+
+    .middle-section-blog-left {
+        width: 100%;
+        background-color: white;
+        margin-bottom: 20px;
+
+    }
+
+    .middle-section-blog-right {
+        width: 100%;
+
+
+    }
+
+    .middle-section-blog-left-menu a {
+
+        margin: 10px 0px;
+        border: 1px solid rgb(227, 224, 224);
+
+
+    }
+
+
+
+    .middle-section-blog-right-card {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 25px;
+
+
+
+    }
+
+    /* upcoming part */
+    .card-img-upcoming-part h3 {
+        margin: 0px 0px;
+        font-size: 30px;
+    }
+
+    .card-info-upcoming-part h4 {
+        font-size: 28px;
+        font-weight: 700;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .card-info-p {
+        font-size: 20px;
+        font-weight: 400;
+        font-family: "Poppins", sans-serif;
+        margin-top: 5px;
+
+    }
+
+    /* footer */
+
+
 }
-footer h3{
-    justify-content: center;
+
+@media(max-width:688px) {
+    .footer-menu {
+        flex-direction: column;
+    }
+
+    .social-site {
+        width: 100%;
+    }
+
+    .footer-menu-first {
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-menu-second {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-menu a {
+        margin: 10px 0px;
+    }
+
+    .footer h3 {
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    footer {
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer h3 {
+        justify-content: center;
         align-items: center;
         font-size: 40px;
+    }
+
 }
 
-   }
-/* RESPONSIVE FOR TAB VIEW START HERE */
-@media (min-width: 688px) and (max-width: 992px) {
-.banner-part-left-inner-text h1 {
+/* For tab view */
+@media (min-width: 689px) and (max-width: 992px) {
+    .banner-part-left-inner-text h1 {
         line-height: 50px;
         font-size: 40px;
     }
 
-   .banner-part-left-text .banner-part-left-inner-text {
+    .banner-part-left-text .banner-part-left-inner-text {
         width: 100%;
         margin-left: 30px;
     }
@@ -191,15 +199,15 @@ footer h3{
         grid-gap: 25px;
     }
 
-     #view-btn {
+    #view-btn {
         width: 100%;
         margin-top: 30px;
         display: block;
         text-align: center;
     }
 
-    /* UPCOMING BLOG STYLE START */
-    
+    /* Upcoming blog start*/
+
 
     .card-info-upcoming-part h4 {
         font-size: 20px;
@@ -207,7 +215,7 @@ footer h3{
         font-family: "Poppins", sans-serif;
     }
 
-     .card-info-p {
+    .card-info-p {
         font-size: 16px;
         font-weight: 400;
         font-family: "Poppins", sans-serif;
@@ -223,12 +231,12 @@ footer h3{
         margin: 0px 5px;
     }
 
-    .footer-menu  {
+    .footer-menu {
         text-align: center;
         margin-top: 10px;
     }
-    .footer-menu-second{
+
+    .footer-menu-second {
         text-align: center;
     }
 }
-  
