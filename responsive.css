@@ -3,17 +3,24 @@
         flex-direction: column;
     }
 
-    .banner-part .banner-part-left-text .banner-part-left-inner-text {
+    .banner-part-left-inner-text {
         text-align: center;
     }
 
-    .banner-part .banner-part-left-text .banner-part-left-inner-text h1 {
-        font-size: 30px;
-        line-height: 43px;
+    /* .banner-part .banner-part-left-text .banner-part-left-inner-text h1
+      */
+        .top-text{
+            font-size: 30px;
+                line-height: 43px;
+
+        }
+        
 
     }
     .banner-btn{
         align-items: center;
 
     }
-    
+    /* banner done */
+   /* middle part  */
+   
