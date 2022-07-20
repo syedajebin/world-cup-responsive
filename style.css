@@ -343,6 +343,25 @@ font-weight: 700;
     font-size: 20px;
 }
 /* upcoming end */
+/* view button */
+#view-btn {
+
+    display: none;
+}
+
+ .view-btn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    background-color: #E02C6D;
+    width: 149px;
+    padding: 12px 12px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    border: none;
+
+}
 footer {
     background-color: #022247;
     padding: 20px;

@@ -65,7 +65,170 @@
             grid-gap: 25px;
            
     
-        }
+       
+     }
+     /* upcoming part */
+          .card-img-upcoming-part h3 {
+             margin: 0px 0px;
+             font-size: 30px;
+         }
+    
+        .card-info-upcoming-part h4 {
+             font-size: 28px;
+             font-weight: 700;
+             font-family: "Poppins", sans-serif;
+         }
+    
+      .card-info-p {
+             font-size: 20px;
+             font-weight: 400;
+             font-family: "Poppins", sans-serif;
+             margin-top: 5px;
+       
+            }
+     /* footer */
+
+                
     }
+
+   @media(max-width:688px){
+    .footer-menu {
+            flex-direction: column;
+        }
+    
+        .social-site{
+            width: 100%;
+        }
+    
+        .footer-menu-first {
+            display: flex;
+            flex-direction: column;
+           
+                justify-content: center;
+                align-items: center;
+        }
+    
+        .footer-menu-second {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .footer-menu a {
+            margin: 10px 0px;
+        }
+
+.footer h3{
+    justify-content: center;
+    align-items: center;
    
-   /* FOOTER SECTION */
+}
+footer{
+        justify-content: center;
+            align-items: center;
+}
+footer h3{
+    justify-content: center;
+        align-items: center;
+        font-size: 40px;
+}
+
+   }
+/* RESPONSIVE FOR TAB VIEW START HERE */
+@media (min-width: 688px) and (max-width: 992px) {
+.banner-part-left-inner-text h1 {
+        line-height: 50px;
+        font-size: 40px;
+    }
+
+   .banner-part-left-text .banner-part-left-inner-text {
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    .banner-part .banner-part-right-img img {
+        width: 100%;
+        height: 433px;
+        margin-top: 119px;
+    }
+
+    .banner-part-left-inner-text .banner-btn {
+        margin: 30px 0px;
+    }
+
+    /* Middle part tab */
+    .middle-section-blog {
+        flex-direction: column;
+    }
+
+    .middle-section-blog-left {
+        width: 100%;
+        height: 120px;
+        background-color: white;
+        margin-bottom: 20px;
+    }
+
+    .middle-section-blog-left-menu {
+        flex-direction: row;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .middle-section-blog-left-menu a {
+        margin: 0px 10px;
+        border: 1px solid rgb(227, 224, 224);
+    }
+
+    .middle-section-blog-right {
+        width: 100%;
+    }
+
+    .middle-section-blog-right-card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 25px;
+    }
+
+     #view-btn {
+        width: 100%;
+        margin-top: 30px;
+        display: block;
+        text-align: center;
+    }
+
+    /* UPCOMING BLOG STYLE START */
+    
+
+    .card-info-upcoming-part h4 {
+        font-size: 20px;
+        font-weight: 700;
+        font-family: "Poppins", sans-serif;
+    }
+
+     .card-info-p {
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "Poppins", sans-serif;
+        margin-top: 5px;
+    }
+
+    /* FOOTER SECTION */
+    .footer-menu {
+        flex-direction: column;
+    }
+
+    .footer-menu a {
+        margin: 0px 5px;
+    }
+
+    .footer-menu  {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .footer-menu-second{
+        text-align: center;
+    }
+}
+  
